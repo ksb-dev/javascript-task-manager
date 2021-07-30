@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <title>Task Manager</title>
+  </head>
+  <body>
+    <div class="container">
+        <div id="row1">
+            <h1 id="task-title">TASK MANAGER</h1>
+            <div>
+                <form id="task-form">
+                    <div id="task-input">
+                        <input type="text" name="task" id="task" placeholder="Enter new task here">
+                    </div>
+                    <input type="submit" value="Add Task" id="input-submit">
+                </form>
+            </div>
+        </div>
+
+        <div class="row2">
+            <h3 id="tasks">Task List</h3>
+                <div>
+                    <input type="text" name="filter" id="filter" placeholder="Filter tasks here">
+                </div>
+                <div class="outer-ul">
+                    <ul class="ul"></ul>
+                </div>
+                <a class="clear">Clear Tasks</a>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
